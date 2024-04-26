@@ -1,0 +1,36 @@
+body{
+    background: black;
+    color: white;
+    font-size: 50px;
+}
+div{
+    width: 800px;
+    height: 200px;
+}
+li:nth-child(odd) {
+    background: green;
+}
+
+li:nth-child(even) {
+    background: blue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Para mostrar los elementos en una línea horizontal */
+}
+
+li {
+    background: green;
+    color: white;
+    width: 50px; /* Ancho del cuadrado */
+    height: 50px; /* Altura del cuadrado */
+    margin: 5px; /* Espacio entre los cuadrados */
+    display: flex; /* Para centrar contenido verticalmente */
+    justify-content: center; /* Para centrar contenido horizontalmente */
+    align-items: center; /* Para centrar contenido verticalmente */
+    font-size: 18px;
+}
+
